@@ -20,7 +20,7 @@ $(document).ready(function(){
                 var wf = '';
                 
                 $.each(data.weather, function(index, val){
-                    wf += '<h1><b>'+data.name+"</b><h1>" +"<h3>Temperature&nbsp;:&nbsp;"+ data.main.temp + '&deg;C </h3>' /*+ val.main + ","*/+"<h3>Description&nbsp;:&nbsp;" + val.description+ '</h3>'
+                    wf += '<h1 style="color: #6600cc;"><b>'+data.name+"</b><h1>" +"<h3>Temperature&nbsp;:&nbsp;"+ data.main.temp + '&deg;C </h3>' /*+ val.main + ","*/+"<h3>Description&nbsp;:&nbsp;" + val.description+ '</h3>'
                 
                 });
 
